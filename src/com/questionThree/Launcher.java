@@ -13,9 +13,9 @@ public class Launcher {
          
         student.displayFullName();
 
-        Person worker = new worker();
-        worker.setFirstName("bred");
-        worker.setLastName("ripper");
+        Person worker = new Workers();
+        worker.setFirstName("ned");
+        worker.setLastName("stark");
          
         worker.displayFullName();
     }
