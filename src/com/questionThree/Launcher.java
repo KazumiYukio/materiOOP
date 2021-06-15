@@ -7,10 +7,16 @@ public class Launcher {
          
         person.displayFullName();
          
-        Student student = new Student();
+        Person student = new Student();
         student.setFirstName("ned");
         student.setLastName("stark");
          
         student.displayFullName();
+
+        Person worker = new worker();
+        worker.setFirstName("bred");
+        worker.setLastName("ripper");
+         
+        worker.displayFullName();
     }
 }
